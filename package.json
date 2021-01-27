@@ -1,0 +1,18 @@
+{
+  "name": "cypress-env-configs",
+  "version": "1.0.0",
+  "description": "Using Cypress on Multiple Environments Demo",
+  "dependencies": {
+    "cypress": "^6.1.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAlsaab/cypress-env-configs.git"
+  },
+  "author": "Ahmed Alsaab",
+  "license": "ISC"
+}

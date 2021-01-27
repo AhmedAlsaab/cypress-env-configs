@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://example.com/",
+  "env": {
+    "userId": "789",
+    "environment": "stage"
+  }
+}
