@@ -7,7 +7,9 @@
   },
   "scripts": {
     "cy:open": "cypress open",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:development": "cypress open --env fileConfig=development",
+    "cy:stage": "cypress open --env fileConfig=stage",
+    "cy:production": "cypress open --env fileConfig=production"
   },
   "repository": {
     "type": "git",
